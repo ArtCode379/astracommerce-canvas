@@ -1,0 +1,17 @@
+{
+  "phase": "scaffold_cloned",
+  "updated_at": "2026-08-23T19:18:57.288336+00:00",
+  "slug": "astracommerce-canvas",
+  "type": "shop",
+  "package": "astracommercetrade.art.astracanvas",
+  "prefix": "JVONG",
+  "app_name": "AstraCommerce Canvas",
+  "task_gid": "1217445085646240",
+  "task_name": "GB GW4 C1520",
+  "asana_url": "https://app.asana.com/1/1208304498069546/project/1213586227413017/task/1217445085646240",
+  "domain": "https://astracommerce-trade.surf",
+  "company": "ASTRACOMMERCE TRADE LTD",
+  "repo_url": "https://github.com/ArtCode379/astracommerce-canvas",
+  "quality_status": "not_run",
+  "build_status": "not_run"
+}

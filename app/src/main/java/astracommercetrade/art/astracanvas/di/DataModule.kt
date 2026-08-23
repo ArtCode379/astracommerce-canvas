@@ -1,0 +1,36 @@
+package astracommercetrade.art.astracanvas.di
+
+import astracommercetrade.art.astracanvas.data.repository.CartRepository
+import astracommercetrade.art.astracanvas.data.repository.JVONGOnboardingRepo
+import astracommercetrade.art.astracanvas.data.repository.OrderRepository
+import astracommercetrade.art.astracanvas.data.repository.ProductRepository
+
+import org.koin.core.qualifier.named
+import org.koin.dsl.module
+
+val dataModule = module {
+    includes(databaseModule, dataStoreModule)
+
+    single {
+        JVONGOnboardingRepo(
+            jvongOnboardingStoreManager = get(),
+            coroutineDispatcher = get(named("IO"))
+        )
+    }
+
+    single { ProductRepository() }
+
+    single {
+        CartRepository(
+            cartItemDao = get(),
+            coroutineDispatcher = get(named("IO"))
+        )
+    }
+
+    single {
+        OrderRepository(
+            orderDao = get(),
+            coroutineDispatcher = get(named("IO"))
+        )
+    }
+}

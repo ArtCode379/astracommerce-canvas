@@ -1,6 +1,6 @@
 {
-  "phase": "scaffold_cloned",
-  "updated_at": "2026-08-23T19:18:57.288336+00:00",
+  "phase": "github_push_started",
+  "updated_at": "2026-08-23T19:46:18.452409+00:00",
   "slug": "astracommerce-canvas",
   "type": "shop",
   "package": "astracommercetrade.art.astracanvas",
@@ -12,6 +12,15 @@
   "domain": "https://astracommerce-trade.surf",
   "company": "ASTRACOMMERCE TRADE LTD",
   "repo_url": "https://github.com/ArtCode379/astracommerce-canvas",
-  "quality_status": "not_run",
-  "build_status": "not_run"
+  "quality_status": "passed",
+  "build_status": "passed",
+  "icon_primary": "#8E44AD",
+  "icon_status": "imagegen",
+  "icon_error": "generate-icon.sh exited 1",
+  "quality_attempt": 2,
+  "quality_errors": 0,
+  "quality_result_file": "/tmp/astracommerce-canvas/quality-result.txt",
+  "build_exit_code": 0,
+  "build_result_file": "/tmp/astracommerce-canvas/build-result.txt",
+  "build_attempt": 2
 }

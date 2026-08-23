@@ -1,78 +1,79 @@
 <resources>
     <string name="jvong_app_name">AstraCommerce Canvas</string>
-
-    <!-- shared -->
     <string name="jvong_price">£%1$.2f</string>
-
-    <!-- top bar titles -->
-    <string name="jvong_top_bar_home_title">Home/App Title</string>
-    <string name="jvong_top_bar_cart_title">Cart</string>
-    <string name="jvong_top_bar_checkout_title">Checkout</string>
-    <string name="jvong_top_bar_orders_title">Orders</string>
+    <string name="jvong_splash_tagline">Materials for every creative idea</string>
+    <string name="jvong_top_bar_home_title">AstraCommerce Canvas</string>
+    <string name="jvong_top_bar_cart_title">Your Cart</string>
+    <string name="jvong_top_bar_checkout_title">Reserve Order</string>
+    <string name="jvong_top_bar_orders_title">Purchase History</string>
     <string name="jvong_top_bar_settings_title">Settings</string>
-    <string name="jvong_top_bar_product_details_title">Details</string>
-
-    <!-- bottom bar navigation item titles -->
-    <string name="jvong_bottom_bar_nav_item_home_title">Home</string>
+    <string name="jvong_top_bar_product_details_title">Product Details</string>
+    <string name="jvong_bottom_bar_nav_item_home_title">Shop</string>
     <string name="jvong_bottom_bar_nav_item_cart_title">Cart</string>
     <string name="jvong_bottom_bar_nav_item_orders_title">Orders</string>
     <string name="jvong_bottom_bar_nav_item_settings_title">Settings</string>
-
-    <!-- onboarding screen -->
-    <string name="jvong_page_1_title">Strategic Planning</string>
-    <string name="jvong_page_2_title">Operational Excellence</string>
-    <string name="jvong_page_3_title">Change Management</string>
-    <string name="jvong_page_1_description">Comprehensive strategic analysis and planning that aligns your business objectives with market opportunities and organizational capabilities.</string>
-    <string name="jvong_page_2_description">Process optimization and operational improvement strategies that enhance efficiency, reduce costs, and drive sustainable performance.</string>
-    <string name="jvong_page_3_description">Expert guidance through organizational transformation</string>
-    <string name="jvong_next_button_title">Next</string>
-    <string name="jvong_start_button_title">Start</string>
+    <string name="jvong_page_1_title">Make your mark</string>
+    <string name="jvong_page_1_description">Explore colour, drawing, and craft materials selected to help every idea take shape.</string>
+    <string name="jvong_page_2_title">Find the right tools</string>
+    <string name="jvong_page_2_description">Browse focused categories, compare essentials, and build your creative kit with confidence.</string>
+    <string name="jvong_page_3_title">Reserve and collect</string>
+    <string name="jvong_page_3_description">Book your order in the app and collect it from our store within 24 hours.</string>
+    <string name="jvong_next_button_title">Continue</string>
+    <string name="jvong_start_button_title">Start creating</string>
     <string name="jvong_skip_button_title">Skip</string>
-
-    <!-- home/products screen   -->
+    <string name="jvong_home_greeting">What will you create?</string>
+    <string name="jvong_home_subtitle">Discover artist materials made for curious hands.</string>
+    <string name="jvong_categories_title">Browse by category</string>
+    <string name="jvong_shop_title">Creative essentials</string>
+    <string name="jvong_category_all">All</string>
+    <string name="jvong_category_paints">Paints</string>
+    <string name="jvong_category_drawing">Drawing</string>
+    <string name="jvong_category_brushes">Brushes</string>
+    <string name="jvong_category_paper">Paper &amp; Canvas</string>
+    <string name="jvong_category_craft">Craft Kits</string>
     <string name="jvong_products_state_empty_primary_text">No products available</string>
-
-    <!-- product details screen   -->
-    <string name="jvong_product_details_state_empty_primary_text">No information available for this product</string>
+    <string name="jvong_product_details_state_empty_primary_text">This product could not be found</string>
     <string name="jvong_product_image_description">Product image</string>
+    <string name="jvong_product_description_title">About this product</string>
     <string name="jvong_button_add_to_cart_label">Add to Cart</string>
-
-    <!-- cart screen -->
-    <string name="jvong_cart_state_empty_primary_text">Nothing in your cart yet</string>
+    <string name="jvong_added_to_cart">✓ Added to cart</string>
+    <string name="jvong_cart_state_empty_primary_text">Your cart is ready for inspiration</string>
+    <string name="jvong_cart_empty_hint">Start shopping to add your first creative essential.</string>
     <string name="jvong_button_place_order_label">Place Order • £%1$.2f</string>
     <string name="jvong_increase_quantity_icon_description">Increase quantity</string>
     <string name="jvong_decrease_quantity_icon_description">Decrease quantity</string>
-    <string name="jvong_delete_item_icon_description">Delete item</string>
-
-    <!-- orders screen -->
-    <string name="jvong_orders_state_empty_primary_text">You have no orders yet</string>
+    <string name="jvong_delete_item_icon_description">Remove item</string>
+    <string name="jvong_total">Total</string>
+    <string name="jvong_proceed_checkout">Proceed to Checkout</string>
+    <string name="jvong_orders_state_empty_primary_text">No orders yet</string>
     <string name="jvong_order_number">Order #%1$s</string>
     <string name="jvong_order_customer">Customer: %1$s %2$s</string>
-
-    <!-- checkout screen -->
+    <string name="jvong_order_reserved">Reserved</string>
+    <string name="jvong_order_pickup_notice">Your materials are held in store for 24 hours after reservation.</string>
+    <string name="jvong_checkout_heading">Collection details</string>
+    <string name="jvong_checkout_intro">Tell us who is collecting the order. We will reserve everything for 24 hours.</string>
+    <string name="jvong_checkout_name">Full name</string>
+    <string name="jvong_checkout_address">Address</string>
+    <string name="jvong_checkout_phone">Phone number</string>
+    <string name="jvong_pickup_summary">Store collection</string>
+    <string name="jvong_pickup_summary_detail">Your complete cart will be reserved. Payment is made when you collect from the store.</string>
     <string name="jvong_checkout_text_field_first_name">First Name</string>
     <string name="jvong_checkout_text_field_last_name">Last Name</string>
     <string name="jvong_checkout_text_field_email">Email</string>
-    <string name="jvong_button_confirm_order_label">Confirm Order</string>
-
-    <!-- checkout dialog -->
-    <string name="jvong_checkout_dialog_title">Thank You for Your Order!</string>
-    <string name="jvong_checkout_success_message">Your order has been successfully placed. Please hold on; our team will contact you shortly.</string>
-    <string name="jvong_checkout_dialog_confirm">Done</string>
-
-    <!-- settings screen -->
+    <string name="jvong_button_confirm_order_label">Reserve Order</string>
+    <string name="jvong_checkout_dialog_title">Your order is reserved!</string>
+    <string name="jvong_checkout_success_message">Your order number and full details are saved in Purchase History. We look forward to seeing you in store within 24 hours.</string>
+    <string name="jvong_checkout_dialog_confirm">View Order</string>
+    <string name="jvong_settings_intro">Your creative supply shop, all in one place.</string>
+    <string name="jvong_help_title">Help &amp; support</string>
     <string name="jvong_settings_screen_company_label">Company</string>
-    <string name="jvong_settings_screen_version_label">Version</string>
+    <string name="jvong_settings_screen_version_label">App version</string>
     <string name="jvong_settings_screen_customer_support_label">Customer Support</string>
-    <string name="jvong_company_name">Company Name</string>
-    <string name="jvong_app_version">1.0.0</string>
-    <string name="jvong_customer_support_link">https://website.org/</string>
-
-    <!-- clear cart dialog -->
+    <string name="jvong_company_name">ASTRACOMMERCE TRADE LTD</string>
+    <string name="jvong_app_version">1.0</string>
+    <string name="jvong_customer_support_link">https://astracommerce-trade.surf</string>
     <string name="jvong_clear_cart_dialog_title">Clear cart?</string>
     <string name="jvong_clear_card_dialog_text">Are you sure you want to remove all items from your cart?</string>
-    <string name="jvong_button_confirm_clear_cart">Confirm</string>
+    <string name="jvong_button_confirm_clear_cart">Clear</string>
     <string name="jvong_button_cancel_clear_cart">Cancel</string>
-
-    <!--[FIREBASE][notification_channel]-->
 </resources>
